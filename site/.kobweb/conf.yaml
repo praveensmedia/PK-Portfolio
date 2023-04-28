@@ -1,0 +1,14 @@
+site:
+  title: "PK Portfolio"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/pk.js"
+      api: "build/libs/pk.jar"
+    prod:
+      script: "build/distributions/pk.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
